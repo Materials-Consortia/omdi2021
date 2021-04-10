@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>{{title}}</title>
+    <meta name="description" content="{{description}}">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
+    <link type="text/css" rel="stylesheet" href="assets/css/lightslider.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    {% block header %}
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+
+            <div id="logo">
+              <a href="index"><img id="menu_logo" src="assets/images/optimade-text-right-transparent-bg.png"></a>
+            </div>
+            <br>
+            <div id="menu" class="menu">
+                <a href="index">About</a>
+                <a href="documentation">Documentation</a>
+                <a href="optimade">Specification</a>
+                <a href="contributors">Contributors</a>
+                <a href="https://github.com/Materials-Consortia/" target="_blank">GitHub</a>
+                <a href="https://matsci.org/c/optimade/" target="_blank">Forum</a>
+                <span class="special_menu"><a href="clients">Try It!</a></span>
+       	    </div>
+
+        </header>
+    </div>
+    {% endblock header %}
+
+    {% block main %}
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+        <section id="main_content" class="inner">
+            <div class="content">
+                {{ content }}
+            </div>
+        </section>
+    </div>
+    {% endblock main %}
+
+    {% block footer %}
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+        <footer class="inner">
+        </footer>
+    </div>
+    {% endblock footer %}
+
+    <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("menu_logo").style.width = "160px";
+                document.getElementById("menu").classList.add("tiny_menu");
+            } else {
+                document.getElementById("menu_logo").style.width = "640px";
+                document.getElementById("menu").classList.remove("tiny_menu");
+            }
+            if (window.pageYOffset >= document.getElementById("header_wrap").offsetTop) {
+                document.getElementById("header_wrap").classList.add("sticky")
+            } else {
+                document.getElementById("header_wrap").classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>
