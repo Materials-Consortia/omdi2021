@@ -6,6 +6,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      COMMIT_AUTHOR: OPTIMADE
+      COMMIT_AUTHOR_EMAIL: dev@optimade.org
+
     steps:
     - uses: actions/checkout@v2
 
@@ -22,3 +26,6 @@ jobs:
 
     - name: Make pages
       run: ./make_pages.py
+
+    - name: Build gh-pages branch locally
+      run: ./commit.sh
