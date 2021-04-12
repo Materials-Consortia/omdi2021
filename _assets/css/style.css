@@ -295,7 +295,7 @@ img {
   font-size: 100%;
 }
 .menu a {
--webkit-box-align: center;
+  -webkit-box-align: center;
   -webkit-box-pack: center;
   -webkit-user-drag: none;
   align-items: center;
@@ -320,7 +320,6 @@ img {
   text-align: center;
   text-decoration: none;
   touch-action: manipulation;
-  transition: 0.4s;
   transition: color .5s, box-shadow undefined, background undefined, border-color undefined undefined undefined;
   user-select: none;
   vertical-align: middle;
@@ -343,20 +342,20 @@ img {
   border: 2px solid #e75254;
 }
 
-.tiny_menu a {
+.sticky-menu a {
+  padding: 7px 17px;
   font-size: 12px;
-  font-weight: 600px;
-  padding: 6px 14px;
+  font-weight: 500;
 }
 
-#menu_logo {
+#logo img {
   max-width: 640px;
   width: 100%;
   display: block;
   margin: 0 auto;
-  transition: 0.4s;
   text-align: center;
 }
+
 #main_content_wrap {
   border: 0pt;
 }
@@ -364,9 +363,6 @@ img {
 #header_wrap {
   background: #FFFFFF !important;
   max-width: none !important;
-  transition: 0.4s;
-  top: 0;
-  z-index: 99;
   overflow: hidden;
 }
 
@@ -374,16 +370,40 @@ img {
   max-width: none !important;
 }
 
-.content {
-  padding: 0px;
-}
-
 .sticky {
-  position: fixed;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
   top: 0;
-  width: 100%;
 }
 
-.sticky + .content {
-  padding-top: 5px;
+#toc-menu {
+  z-index: 99;
+  overflow: hidden;
+}
+
+.mdheader {
+  position: relative;
+  top: -94px;  /* 79px (height of sticky menu) + buffer (15px) */
+  visibility: hidden;
+
+}
+
+#toc-menu {
+  background: rgba(255, 255, 255, 0.8) !important;
+  max-width: none !important;
+  width: 100%;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  text-align: left;
 }

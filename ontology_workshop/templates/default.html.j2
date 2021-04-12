@@ -26,19 +26,18 @@
         <header class="inner">
 
             <div id="logo">
-              <a href="index"><img id="menu_logo" src="assets/images/optimade-text-right-transparent-bg.png"></a>
+              <a href="../index"><img src="assets/images/optimade-text-right-transparent-bg.png"></a>
             </div>
             <br>
             <div id="menu" class="menu">
-                <a href="index">About</a>
-                <a href="documentation">Documentation</a>
-                <a href="optimade">Specification</a>
-                <a href="contributors">Contributors</a>
+                <a href="../index">About</a>
+                <a href="../documentation">Documentation</a>
+                <a href="../optimade">Specification</a>
+                <a href="../contributors">Contributors</a>
                 <a href="https://github.com/Materials-Consortia/" target="_blank">GitHub</a>
                 <a href="https://matsci.org/c/optimade/" target="_blank">Forum</a>
                 <span class="special_menu"><a href="clients">Try It!</a></span>
        	    </div>
-
         </header>
     </div>
     {% endblock header %}
@@ -46,10 +45,16 @@
     {% block main %}
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
+        <div id="toc-menu" class="inner menu sticky-menu">
+            <a href="#presentation">Presentation</a>
+            <a href="#organizers">Organizers</a>
+            <a href="#speakers">Speakers</a>
+            <span class="special_menu"><a href="#registration">Registration</a></span>
+            <a href="#program">Program</a>
+            <a href="#contact">Contact</a>
+        </div>
         <section id="main_content" class="inner">
-            <div class="content">
-                {{ content }}
-            </div>
+            {{ content }}
         </section>
     </div>
     {% endblock main %}
@@ -67,17 +72,10 @@
         window.onscroll = function() {scrollFunction()};
 
         function scrollFunction() {
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                document.getElementById("menu_logo").style.width = "160px";
-                document.getElementById("menu").classList.add("tiny_menu");
+            if (window.pageYOffset >= document.getElementById("toc-menu").offsetTop) {
+                document.getElementById("toc-menu").classList.add("sticky");
             } else {
-                document.getElementById("menu_logo").style.width = "640px";
-                document.getElementById("menu").classList.remove("tiny_menu");
-            }
-            if (window.pageYOffset >= document.getElementById("header_wrap").offsetTop) {
-                document.getElementById("header_wrap").classList.add("sticky")
-            } else {
-                document.getElementById("header_wrap").classList.remove("sticky");
+                document.getElementById("toc-menu").classList.remove("sticky");
             }
         }
     </script>

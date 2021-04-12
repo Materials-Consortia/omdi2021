@@ -35,7 +35,10 @@ def make_pages():
 
     # Get content
     with open(IN_FOLDER / "content.md") as handle:
-        all_data["content"] = markdown.markdown(handle.read())
+        all_data["content"] = markdown.markdown(
+            handle.read(),
+            extensions=["tables"],
+        )
 
     # Write main overview index
     rendered = env.get_template("default.html.j2").render(**all_data)
