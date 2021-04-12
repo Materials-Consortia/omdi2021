@@ -18,7 +18,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -U setuptools
-        pip install -r make_ghpages/requirements.txt
+        pip install -r requirements.txt
 
     - name: Make pages
       run: ./make_pages.py
