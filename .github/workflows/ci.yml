@@ -22,3 +22,6 @@ jobs:
 
     - name: Make pages
       run: ./make_pages.py
+
+    - name: Build gh-pages branch locally
+      run: ./commit.sh
