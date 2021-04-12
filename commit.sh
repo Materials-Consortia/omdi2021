@@ -16,7 +16,7 @@ fi
 # Move html to temp dir
 mv build ../page-build
 git checkout "${TARGET_BRANCH}" || git checkout --orphan "${TARGET_BRANCH}"
-rm -rf * || exit 0
+rm -rf ..?* .[!.]* * || exit 0
 cp -r ../page-build/* .
 
 git config user.name "${COMMIT_AUTHOR}"
