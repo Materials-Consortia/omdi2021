@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  daily_build:
+  release:
     runs-on: ubuntu-latest
     env:
       COMMIT_AUTHOR: OPTIMADE
