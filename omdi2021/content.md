@@ -2,7 +2,12 @@
 
 ***Workshop on Ontologies for Materials-Databases Interoperability 2021***
 
+<div style="border:5px double #00acd9;padding:5px;"><strong>Place</strong>: Linköping University, Sweden & Digital participation<br/><strong>Time</strong>: October 5-7, 2021</div>
+
 ## <a name="presentation" class="mdheader"></a> Presentation
+
+Formalized descriptions of materials science terminology in form of ontologies are increasingly important for making materials data FAIR (findable, accessible, interoperable, and reusable).
+The OMDI2021 workshop aims to bring together researchers engaged in materials databases, materials-oriented ontologies, and semantic methods.
 
 In the field of materials science, the increasing adoption of data-driven methods calls for a higher degree of standardisation.
 Open databases of materials properties have appeared during the last decade and are rapidly growing.
@@ -71,7 +76,7 @@ The OMDI2021 workshop aims to leverage the part of that community interested in 
 
 **Luca Ghiringhelli**, Fritz-Haber-Institut der Max-Planck-Gesellschaft, Germany  
 **Patrick Lambrix**, **Huanyu Li**, Linköping University, Sweden  
-**Casper Andersen**, **Giovanni Pizzi**, EPFL, Switzerland  
+**Casper Welzel Andersen**, **Giovanni Pizzi**, EPFL, Switzerland  
 **Saulius Gražulis**, **Andrius Merkys**, Vilnius University, Lithuania  
 **Cormac Toher**, Duke University, NC, USA  
 **Gareth Conduit**, University of Cambridge, UK  
@@ -79,7 +84,7 @@ The OMDI2021 workshop aims to leverage the part of that community interested in 
 
 ## <a name="registration" class="mdheader"></a> Registration
 
-Registration link to come.
+<div class="menu"><span class="special_menu"><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=7Bg_kSZ_X0yoFnhP6aWO3WJBgpGBIKdFh8b1GjAYgoBUQkVOUEwwRUhKRjFDMDNNSUowSk5LRVJXNi4u" target="_blank">OMDI2021 Workshop Registration</a></span></div>
 
 ## <a name="program" class="mdheader"></a> Program
 
@@ -87,7 +92,7 @@ Registration link to come.
 
 | **Day 1** | **Day 2** | **Day 3** |
 | --- | --- | --- |
-| Ontologies and their place in open science.<br>Ontologies in materials science. | Ontology use in applications.<br>Ontologies for materials properties. | Ontologies for data integration.<br>Ontologies for data exchange. |
+| Ontologies and their place in open science.<br/>Ontologies in materials science. | Ontology use in applications.<br/>Ontologies for materials properties. | Ontologies for data integration.<br/>Ontologies for data exchange. |
 
 ## <a name="contact" class="mdheader"></a> Contact
 
