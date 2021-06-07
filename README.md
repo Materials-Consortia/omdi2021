@@ -7,8 +7,8 @@ A single page for the OMDI2021 workshop.
 To work on this website locally do the following:
 
 ```console
-$ git clone https://github.com/Materials-Consortia/ontology-workshop
-$ cd ontology-workshop
+$ git clone https://github.com/Materials-Consortia/omdi2021
+$ cd omdi2021
 $ pip install -r requirements.txt
 $ ./make_pages.py
 ```
