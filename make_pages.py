@@ -31,7 +31,7 @@ def make_pages():
         autoescape=select_autoescape(["html", "xml"]),
     )
 
-    all_data = {}
+    all_data = {"title": "OMDI2021 Workshop"}
 
     # Get content
     with open(IN_FOLDER / "content.md") as handle:
