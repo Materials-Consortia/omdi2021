@@ -15,7 +15,7 @@ pwd = Path(__file__).parent.resolve()
 ASSETS_FOLDER_ABS = pwd / f"_{ASSETS_FOLDER}"
 
 # In-folders
-IN_FOLDER = Path("ontology_workshop").resolve()
+IN_FOLDER = Path("omdi2021").resolve()
 
 
 def make_pages():
@@ -27,7 +27,7 @@ def make_pages():
     shutil.copytree(ASSETS_FOLDER_ABS, OUT_FOLDER / ASSETS_FOLDER)
 
     env = Environment(
-        loader=PackageLoader("ontology_workshop"),
+        loader=PackageLoader("omdi2021"),
         autoescape=select_autoescape(["html", "xml"]),
     )
 
