@@ -97,3 +97,14 @@ The OMDI2021 workshop aims to leverage the part of that community interested in 
 ## <a name="contact" class="mdheader"></a> Contact
 
 Contact the workshop organizers at **omdi2021[at]groups.liu.se**.
+
+## <a name="support" class="mdheader"></a> Support
+
+This workshop has been made possible by funding from the [Psi-k Network](https://psi-k.net/), [NCCR MARVEL](https://nccr-marvel.ch/), [SeRC](https://e-science.se), and is hosted by [Linköping University](https://liu.se).
+
+<div style="display:flex;justify-content:space-around;align-items:center;">
+    <a href="https://psi-k.net/" target="_blank"><img src="assets/images/psi-k-crystal_low.png" alt="Psi-k Network" height="100px"/></a>
+    <a href="https://nccr-marvel.ch" target="_blank"><img src="assets/images/marvel-logo-text.svg" alt="MARVEL" width="125px"/></a>
+    <a href="https://e-science.se/" target="_blank"><img src="assets/images/serc-logo.png" alt="serc" width="125px"/></a>
+    <a href="https://liu.se/" target="_blank"><img src="assets/images/LiU-logo.png" alt="Linköping University" width="125px"/></a>
+</div>
