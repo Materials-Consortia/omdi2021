@@ -389,7 +389,7 @@ img {
 
 .mdheader {
   position: relative;
-  top: -94px;  /* 79px (height of sticky menu) + buffer (15px) */
+  top: -15px;  /* 79px (height of sticky menu) + buffer (15px) */
   visibility: hidden;
 
 }
