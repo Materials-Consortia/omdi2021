@@ -342,10 +342,27 @@ img {
   border: 2px solid #e75254;
 }
 
-.sticky-menu a {
-  padding: 7px 17px;
-  font-size: 12px;
-  font-weight: 500;
+.back-to-optimade {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  top: 1.2rem;
+  left: 1.5rem;
+  z-index: 15;
+  display: flex;
+  float: left;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.back-to-optimade a svg path:hover {
+  fill: #e75254;
+}
+
+.back-to-optimade p {
+  margin-left: 0.5rem;
+  font-size: 90%;
 }
 
 #logo img {
@@ -370,34 +387,11 @@ img {
   max-width: none !important;
 }
 
-.sticky {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
-
-#toc-menu {
-  z-index: 99;
-  overflow: hidden;
-}
-
 .mdheader {
   position: relative;
   top: -94px;  /* 79px (height of sticky menu) + buffer (15px) */
   visibility: hidden;
 
-}
-
-#toc-menu {
-  background: rgba(255, 255, 255, 0.8) !important;
-  max-width: none !important;
-  width: 100%;
-  align-items: center;
-  vertical-align: middle;
-  justify-content: center;
-  text-align: center;
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
 }
 
 th {
