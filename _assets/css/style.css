@@ -348,12 +348,21 @@ img {
   margin: 0px;
   top: 1.2rem;
   left: 1.5rem;
-  float: left;
   z-index: 15;
+  display: flex;
+  float: left;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
 }
 
-.back-to-optimade svg path:hover {
+.back-to-optimade a svg path:hover {
   fill: #e75254;
+}
+
+.back-to-optimade p {
+  margin-left: 0.5rem;
+  font-size: 90%;
 }
 
 #logo img {
