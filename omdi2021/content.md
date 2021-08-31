@@ -92,7 +92,7 @@ The OMDI2021 workshop aims to leverage the part of that community interested in 
 
 | **Day 1** | **Day 2** | **Day 3** |
 | --- | --- | --- |
-| Ontologies and their place in open science.<br/>Ontologies in materials science. | Ontology use in applications.<br/>Ontologies for materials properties. | Ontologies for data integration.<br/>Ontologies for data exchange. |
+| Ontologies and their place in open science.<br/>Ontologies for data exchange. | Ontologies in materials science.<br/>Ontologies for materials properties. | Ontologies for data integration.<br/>Ontology use in applications. |
 
 ## <a name="contact" class="mdheader"></a> Contact
 
