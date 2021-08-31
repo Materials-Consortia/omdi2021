@@ -57,7 +57,7 @@ The OMDI2021 workshop aims to leverage the part of that community interested in 
 
 ## <a name="speakers" class="mdheader"></a> Speakers
 
-### Confirmed invited speakers (so far)
+### Invited speakers
 
 **Peter Murray-Rust**, University of Cambridge, UK  
 **Ellad Tadmor**, University of Minnesota, USA  
@@ -70,13 +70,13 @@ The OMDI2021 workshop aims to leverage the part of that community interested in 
 **Davide Di Stefano**, Ansys, UK  
 **Toshihiro Ashino**, TOYO University, Japan  
 **Olga Wodo**, University at Buffalo, USA  
-**Micael Oliveira**, Max Planck Institute for the Structure and Dynamics of Matter, Portugal
 
 ### Talks from organisational team
 
 **Luca Ghiringhelli**, Fritz-Haber-Institut der Max-Planck-Gesellschaft, Germany  
 **Patrick Lambrix**, **Huanyu Li**, Linköping University, Sweden  
-**Casper Welzel Andersen**, **Giovanni Pizzi**, EPFL, Switzerland  
+**Casper Welzel Andersen**, SINTEF, Norway  
+**Giovanni Pizzi**, EPFL, Switzerland  
 **Saulius Gražulis**, **Andrius Merkys**, Vilnius University, Lithuania  
 **Cormac Toher**, Duke University, NC, USA  
 **Gareth Conduit**, University of Cambridge, UK  
@@ -88,7 +88,7 @@ The OMDI2021 workshop aims to leverage the part of that community interested in 
 
 ## <a name="program" class="mdheader"></a> Program
 
-***Preliminary - a detailed program will appear later.***
+***Preliminary - a detailed program will soon appear.***
 
 | **Day 1** | **Day 2** | **Day 3** |
 | --- | --- | --- |
