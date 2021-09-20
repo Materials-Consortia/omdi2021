@@ -50,7 +50,7 @@ The OMDI2021 workshop aims to leverage the part of that community interested in 
 | **Core workshop organizers** | **Scientific advisory board** |
 | --- | --- |
 | **Rickard Armiento**, Linköping University, Sweden | **Saulius Gražulis**, Vilnius University, Lithuania |
-| **Casper Welzel Andersen**, EPFL, Switzerland | **Giovanni Pizzi**, EPFL, Switzerland |
+| **Casper Welzel Andersen**, SINTEF Industry, Norway | **Giovanni Pizzi**, EPFL, Switzerland |
 | **Patrick Lambrix**, Linköping University, Sweden | **Gian-Marco Rignanese**, UCLouvain, Belgium |
 | **Gareth Conduit**, University of Cambridge, United Kingdom | **Markus Scheidgen**, Humboldt Universität zu Berlin, Germany |
 | **Cormac Toher**, Duke University, NC, United States of America |  |
@@ -76,7 +76,7 @@ The OMDI2021 workshop aims to leverage the part of that community interested in 
 
 **Luca Ghiringhelli**, Fritz-Haber-Institut der Max-Planck-Gesellschaft, Germany  
 **Patrick Lambrix**, **Huanyu Li**, Linköping University, Sweden  
-**Casper Welzel Andersen**, SINTEF, Norway  
+**Casper Welzel Andersen**, SINTEF Industry, Norway  
 **Giovanni Pizzi**, EPFL, Switzerland  
 **Saulius Gražulis**, **Andrius Merkys**, Vilnius University, Lithuania  
 **Cormac Toher**, Duke University, NC, USA  
