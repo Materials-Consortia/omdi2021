@@ -91,6 +91,8 @@ The OMDI2021 workshop aims to leverage the part of that community interested in 
 
 [Tentative program](assets/files/program-omdi2021.pdf)
 
+[Provided abstracts](assets/files/abstracts-omdi2021.pdf)
+
 ## <a name="contact" class="mdheader"></a> Contact
 
 Contact the workshop organizers at **omdi2021[at]groups.liu.se**.
