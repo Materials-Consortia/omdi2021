@@ -85,7 +85,7 @@ The OMDI2021 workshop aims to leverage the part of that community interested in 
 
 ## <a name="registration" class="mdheader"></a> Registration
 
-<div class="menu"><span class="special_menu"><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=7Bg_kSZ_X0yoFnhP6aWO3WJBgpGBIKdFh8b1GjAYgoBUQkVOUEwwRUhKRjFDMDNNSUowSk5LRVJXNi4u" target="_blank">OMDI2021 Workshop Registration</a></span></div>
+The registration form has now closed. Late registation is possible via email. Please email **omdi2021[at]groups.liu.se** stating your name, affiliation and country, and we will provide you with the participation links.
 
 ## <a name="program" class="mdheader"></a> Program
 
