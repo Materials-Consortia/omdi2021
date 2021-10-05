@@ -1,5 +1,7 @@
 # OMDI2021
 
+<!-- markdownlint-disable MD033 -->
+
 ***Workshop on Ontologies for Materials-Databases Interoperability 2021***
 
 <div style="border:5px double #00acd9;padding:5px;"><strong>Place</strong>: Linköping University, Sweden & Digital participation<br/><strong>Time</strong>: October 5-7, 2021</div>
