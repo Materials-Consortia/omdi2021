@@ -85,6 +85,18 @@ The OMDI2021 workshop aims to leverage the part of that community interested in 
 **Gareth Conduit**, University of Cambridge, UK  
 **Gian-Marco Rignanese**, UCLouvain, Belgium
 
+### Recorded presentations
+
+*Recordings of the presentations will be found here.*
+
+LICENSE: CC-BY-4.0
+
+### Presentation slides
+
+*Presentation slides will be available here.*
+
+LICENSE: CC-BY-4.0
+
 ## <a name="registration" class="mdheader"></a> Registration
 
 The registration form has now closed.
