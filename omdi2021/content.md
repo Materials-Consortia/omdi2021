@@ -1,5 +1,7 @@
 # OMDI2021
 
+<!-- markdownlint-disable MD033 -->
+
 ***Workshop on Ontologies for Materials-Databases Interoperability 2021***
 
 <div style="border:5px double #00acd9;padding:5px;"><strong>Place</strong>: Linköping University, Sweden & Digital participation<br/><strong>Time</strong>: October 5-7, 2021</div>
@@ -83,9 +85,23 @@ The OMDI2021 workshop aims to leverage the part of that community interested in 
 **Gareth Conduit**, University of Cambridge, UK  
 **Gian-Marco Rignanese**, UCLouvain, Belgium
 
+### Recorded presentations
+
+*Recordings of the presentations will be found here.*
+
+LICENSE: CC-BY-4.0
+
+### Presentation slides
+
+*Presentation slides will be available here.*
+
+LICENSE: CC-BY-4.0
+
 ## <a name="registration" class="mdheader"></a> Registration
 
-The registration form has now closed. Late registation is possible via email. Please email **omdi2021[at]groups.liu.se** stating your name, affiliation and country, and we will provide you with the participation links.
+The registration form has now closed.
+Late registation is possible via email.
+Please email **omdi2021[at]groups.liu.se** stating your name, affiliation and country, and we will provide you with the participation links.
 
 ## <a name="program" class="mdheader"></a> Program
 
