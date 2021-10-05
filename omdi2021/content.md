@@ -87,7 +87,9 @@ The OMDI2021 workshop aims to leverage the part of that community interested in 
 
 ## <a name="registration" class="mdheader"></a> Registration
 
-The registration form has now closed. Late registation is possible via email. Please email **omdi2021[at]groups.liu.se** stating your name, affiliation and country, and we will provide you with the participation links.
+The registration form has now closed.
+Late registation is possible via email.
+Please email **omdi2021[at]groups.liu.se** stating your name, affiliation and country, and we will provide you with the participation links.
 
 ## <a name="program" class="mdheader"></a> Program
 
