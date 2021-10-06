@@ -89,7 +89,7 @@ The registration form has now closed. Late registation is possible via email. Pl
 
 ## <a name="program" class="mdheader"></a> Program
 
-[Tentative program](assets/files/program-omdi2021.pdf)
+[Program](assets/files/program-omdi2021.pdf)
 
 [Provided abstracts](assets/files/abstracts-omdi2021.pdf)
 
